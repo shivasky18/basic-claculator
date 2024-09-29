@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .con{
+            border: 2px dashed red;
+            height: 80vh;
+            width: 80vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            /* height: 80lvh; */
+            /* margin-top: 100px; */
+            /* align-content: center; */
+            flex-wrap: wrap;
+            /* margin: 20px; */
+            gap: 20px;
+            /* flex-direction: column; */
+        }
+        .check{
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+        }
+        .no{
+            height: 90px;
+            width: 90px;
+            border: 2px solid blue;
+            /* height: 80vb; */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            height: 80%;
+            width: 50%;
+        }
+        .in{
+            height: 20px;
+            width: 20px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<div class="con">
+    <div class="check">1</div>
+    <div class="check">1</div>
+    <div class="check">1</div>
+    <div class="check">1</div>
+    <div class="check">1</div>
+    <div class="check">1</div>
+    <div class="no">
+        <div class="in">1</div>
+        <div class="in">2</div>
+        <div class="in">3</div>
+    </div>
+    
+</div>
+    
+</body>
+</html>
